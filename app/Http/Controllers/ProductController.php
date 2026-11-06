@@ -21,7 +21,6 @@ class ProductController extends Controller
     }
 
     public function show($id)
-    
     {
     if(!isset($this ->products[$id])){
         abort(404);
